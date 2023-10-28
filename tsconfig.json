@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "target": "ES2015",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@models/*": ["models/*"],
+      "@services/*": ["services/*"],
+      "@reducers/*": ["reducers/*"],
+      "@test/*": ["test/*"],
+      "@utils/*": ["utils/*"]
+    }
+  }
+}
